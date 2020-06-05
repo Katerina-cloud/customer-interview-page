@@ -1,11 +1,23 @@
 *,
 *::after,
 *::before {
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
 
 body {
   box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
