@@ -27,15 +27,15 @@ body {
   color: yellow; }
 
 .btn {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   text-transform: uppercase;
-  color: #FFFFFF;
   border-radius: 10px;
-  padding: 10px;
+  padding: 0 25px;
   height: 155px;
   width: 380px;
   background: linear-gradient(to right, #168acb, #006aa9);
-  color: #fff;
+  color: #fafafa;
   border: none;
   cursor: pointer;
   outline: none; }
@@ -52,3 +52,19 @@ body {
     .btn {
       width: 100%;
       height: 50px; } }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.content_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.content_btn--1 {
+  margin-right: 50px; }
+
+.content_btn--3 {
+  margin-top: 30px; }
