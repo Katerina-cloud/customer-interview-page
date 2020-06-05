@@ -6,7 +6,18 @@
   box-sizing: inherit; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 18px; }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
 
 .heading-primary {
   font-size: large;
@@ -20,8 +31,43 @@ body {
   box-sizing: inherit; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 18px; }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
 
 .heading-primary {
   font-size: large;
   color: yellow; }
+
+.header {
+  display: flex;
+  top: 0;
+  position: relative;
+  background-image: linear-gradient(to right, #168acb, #006aa9); }
+
+.header__email {
+  display: inline;
+  white-space: nowrap; }
+
+.header__container {
+  margin: 75px; }
+
+.header__title {
+  font-weight: 600;
+  font-size: 4rem; }
+
+.header__content {
+  font-size: 2rem;
+  font-weight: 400; }
+
+.header__email-link {
+  font-weight: 700; }
