@@ -38,16 +38,19 @@ body {
   color: #fafafa;
   border: none;
   cursor: pointer;
-  outline: none; }
+  outline: none;
+  box-shadow: 5px 10px 8px #acaaaa; }
   .btn:hover {
     background: #006aa9;
     transform: translateY(-5px);
     box-shadow: 0 1rem 2rem rgba(0, 106, 169, 0.2);
-    transition: transform 0.2s; }
+    transition: transform 0.2s;
+    box-shadow: 5px 10px 8px #acaaaa; }
   .btn:active {
     transform: translateY(5px);
     box-shadow: 0 1rem 2rem rgba(0, 106, 169, 0.2);
-    transition: all 0.2s; }
+    transition: all 0.2s;
+    box-shadow: 5px 10px 8px #acaaaa; }
   @media (max-width: 500px) {
     .btn {
       width: 100%;
