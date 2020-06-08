@@ -1,12 +1,15 @@
-@import "abstracts/variables";
+@import 'abstracts/variables';
 
-@import "base/base.scss";
-@import "abstracts/variables";
+@import 'base/base.scss';
+@import 'abstracts/variables';
 
-@import "base/base.scss";
-@import "base/utilities";
+@import 'base/base.scss';
+@import 'base/utilities';
 
-@import "components/button";
-@import "layout/header";
-@import "layout/content";
+@import 'components/button';
+@import 'layout/header';
+@import 'layout/content';
 
+@import 'layout/_mobile.scss';
+@import 'layout/_medium-screen';
+@import 'layout/_wide-screen';

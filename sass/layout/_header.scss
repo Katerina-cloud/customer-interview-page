@@ -4,9 +4,10 @@
   position: relative;
   background-image: linear-gradient(to right, #168acb, #006aa9);
 
-  :before {
+  &:before {
     content: '';
     background-image: url(../../img/bottom-left-blue-cloud.png);
+    background-size: contain;
     width: 530px;
     height: 229px;
     position: absolute;
@@ -16,15 +17,17 @@
     opacity: 30%;
   }
 
-  ::after {
+  &:after {
     content: '';
     background-image: url(../../img/top-left-clouds.png);
-    width: 522px;
-    height: 325px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 465px;
+    min-height: 290px;
     position: absolute;
     right: 0;
     top: 0;
-    z-index: -1;
+    z-index: -2;
     opacity: 30%;
   }
 }

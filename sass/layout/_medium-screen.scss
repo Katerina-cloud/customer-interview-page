@@ -1,0 +1,31 @@
+@media (max-width: 1110px) {
+  #button__wrapper-1 {
+    &:before {
+      background-size: 50%;
+      width: 70%;
+      height: 70%;
+      left: 10%;
+      bottom: -20%;
+    }
+  }
+
+  #button__wrapper-2 {
+    &:before {
+      background-size: 50%;
+      width: 70%;
+      height: 70%;
+      right: -20%;
+      bottom: -20%;
+    }
+  }
+
+  #button__wrapper-3 {
+    &:before {
+      background-size: 40%;
+      width: 30%;
+      height: 30%;
+      top: 65%;
+      left: 32%;
+    }
+  }
+}
