@@ -1,11 +1,12 @@
 <!DOCTYPE html>
   <head>
-      <meta charset="utf-8">
-      <title>Customer Interview</title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta charset="utf-8">
+	  <title>Customer Interview</title>
+	  <meta name="description" content="">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="/sass/">
+	  <link rel="stylesheet" href="/sass/main.css">
 	  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -18,14 +19,29 @@
 			  </p>
 			  </div>
 		  </header>
-      <section class="content">
-        <div class="content__wrapper">
-          <button class="btn content__btn--1"><span>Хочу</span> <span>подготовиться сам</span></button>
-          <button class="btn content__btn--2"><span>Хочу</span> <span>подготовить сотрудника</span></button>
-        </div>
-        <button class="btn content__btn--3">Нужна подготовка на английском языке</button>
-        <img class="content__image" src="img/boy.png" alt="The picture shows a boy in a thinking pose">
-      </section>
+		  <section class="content">
+			<div class="content__wrapper">
+				<div class="buttons__wrapper">
+					<div id="button__wrapper-1">
+			  		<button class="btn content__btn--1">
+						Хочу
+						подготовиться сам
+					</button>
+				</div>
+				<div id="button__wrapper-2">
+					<button class="btn content__btn--2">
+						Хочу
+						подготовить сотрудника
+				</div>
+				<div id="button__wrapper-3">
+					<button class="btn content__btn--3">Нужна подготовка на английском языке</button>
+				</div>
+				</div>
+				<div class="content__image-wrapper">
+					<img class="content__image" src="img/boy.png" alt="The picture shows a boy in a thinking pose">
+				</div>
+			</div>
+		</section>
 	  </div>
   </body>
 </html>

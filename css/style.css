@@ -18,9 +18,6 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column; }
-  @media (max-width: 570px) {
-    .wrapper {
-      padding: 0 10px; } }
 
 *,
 *::after,
@@ -42,9 +39,6 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column; }
-  @media (max-width: 570px) {
-    .wrapper {
-      padding: 0 10px; } }
 
 .btn {
   font-size: 25px;
@@ -75,10 +69,6 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 106, 169, 0.2);
     transition: all 0.2s;
     box-shadow: 5px 10px 8px #acaaaa; }
-  @media (max-width: 570px) {
-    .btn {
-      width: 100%;
-      height: 75px; } }
 
 .header {
   display: flex;
@@ -140,22 +130,86 @@ body {
   justify-content: center;
   width: 100%;
   margin-top: 120px; }
-  @media (max-width: 570px) {
-    .content__wrapper {
-      flex-direction: column; } }
 
 .content__btn--1 {
   margin-right: 50px;
   margin-bottom: 30px; }
-  @media (max-width: 570px) {
-    .content__btn--1 {
-      flex-direction: column; } }
 
 .content__btn--3 {
   margin: 30px 0px 120px 0px; }
-  @media (max-width: 570px) {
-    .content__btn--3 {
-      margin: 30px; } }
+
+.content__image-wrapper {
+  position: relative; }
+  .content__image-wrapper :before {
+    content: '';
+    background-image: url(../../img/line-1.png);
+    width: 846px;
+    height: 1007px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 30%; }
+  .content__image-wrapper ::after {
+    content: '';
+    background-image: url(../../img/line3.svg);
+    width: 962px;
+    height: 1212px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 30%; }
 
 .content__image {
   max-width: 38vw; }
+
+@media (max-width: 570px) {
+  .wrapper {
+    padding: 0 10px; }
+  .content__wrapper {
+    flex-direction: column;
+    margin-top: 30px; }
+  .header :before {
+    content: '';
+    background-image: none;
+    width: 530px;
+    height: 229px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 30%; }
+  .header ::after {
+    content: '';
+    background-image: url(../../img/top-left-clouds.png);
+    width: 522px;
+    height: 325px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 20%; }
+  .header__container {
+    margin: 10px;
+    padding-right: 0px;
+    z-index: 10;
+    margin-bottom: 10px;
+    text-align: center; }
+  .header__title {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: normal; }
+  .header__content {
+    font-size: 1.5rem;
+    font-weight: 400; }
+  .btn {
+    width: 100%;
+    height: 75px; }
+  .content__btn--1 {
+    flex-direction: column; }
+  .content__btn--3 {
+    margin: 30px; }
+  .content__image {
+    max-width: 95vw; } }
