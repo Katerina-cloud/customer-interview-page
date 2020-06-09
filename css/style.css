@@ -63,16 +63,6 @@ body {
   justify-content: center;
   transition: transform 0.3s;
   margin: 2rem; }
-  .btn:hover {
-    background: #006aa9;
-    transform: translateY(-5px);
-    box-shadow: 0 1rem 2rem rgba(0, 106, 169, 0.2);
-    transition: transform 0.3s;
-    box-shadow: 5px 10px 8px #acaaaa; }
-  .btn:active {
-    transform: translateY(5px);
-    box-shadow: 0 1rem 2rem rgba(0, 106, 169, 0.2);
-    box-shadow: 5px 10px 8px #acaaaa; }
 
 .header {
   display: flex;
@@ -84,25 +74,26 @@ body {
     content: '';
     background-image: url(../../img/bottom-left-blue-cloud.png);
     background-size: contain;
-    width: 530px;
-    height: 229px;
+    background-repeat: no-repeat;
+    width: 40rem;
+    height: 16rem;
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: -1;
-    opacity: 30%; }
+    opacity: 100%; }
   .header:after {
     content: '';
     background-image: url(../../img/top-left-clouds.png);
     background-size: contain;
     background-repeat: no-repeat;
-    min-width: 465px;
-    min-height: 290px;
+    min-width: 30rem;
+    min-height: 20rem;
     position: absolute;
     right: 0;
     top: 0;
     z-index: -1;
-    opacity: 30%; }
+    opacity: 100%; }
 
 .header__email {
   display: inline;
@@ -257,20 +248,23 @@ body {
   .header__container {
     margin: 4rem 8rem;
     padding-right: 10rem; }
+  .content__image {
+    max-width: 680px;
+    margin-top: 50px; }
   .btn {
     font-size: 2.1rem; }
   #button__wrapper-1:before {
     background-size: 50%;
     width: 70%;
     height: 70%;
-    left: 10%;
-    bottom: -10%; }
+    left: 5%;
+    bottom: 10%; }
   #button__wrapper-2:before {
     background-size: 50%;
     width: 70%;
     height: 70%;
     right: -25%;
-    bottom: -10%; }
+    bottom: 3%; }
   #button__wrapper-3:before {
     background-size: 40%;
     width: 30%;
@@ -296,7 +290,7 @@ body {
     width: 70%;
     height: 70%;
     right: -30%;
-    bottom: -5%; }
+    bottom: 0%; }
   #button__wrapper-3:before {
     background-size: 30%;
     width: 30%;
@@ -304,13 +298,27 @@ body {
     top: 35%;
     left: 35%; } }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   html {
     font-size: 8px; }
   .header:after {
     background-image: none; }
   .header__container {
-    margin: 3rem 6rem 4rem; } }
+    margin: 3rem 6rem 4rem; }
+  .btn {
+    min-height: 120px;
+    height: 14vh;
+    min-width: 230px;
+    max-width: 30vw; }
+  #button__wrapper-1:before {
+    max-height: 780px;
+    bottom: 4%; }
+  #button__wrapper-2:before {
+    max-height: 790px;
+    bottom: 1%; }
+  #button__wrapper-3:before {
+    top: 42%;
+    left: 31%; } }
 
 @media (max-width: 570px) {
   html {
@@ -322,19 +330,21 @@ body {
     .header:after {
       background-image: none; }
   .header__container {
-    margin: 0.5rem;
+    margin: 0.8rem;
     margin-bottom: 1.5rem;
-    padding: 0; }
+    padding: 0 10px; }
   .header__title {
     font-size: 3.1rem;
     margin-bottom: 0.5rem; }
   .header__content {
     font-size: 1.8rem;
-    font-weight: 400; }
+    font-weight: 400;
+    text-align: justify; }
   .content__wrapper {
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 0; }
+    margin-top: 0;
+    padding: 0 10px; }
   .buttons__wrapper {
     margin: 0;
     margin-top: 0.5rem;
@@ -351,4 +361,17 @@ body {
   #button__wrapper-3:before {
     content: none; }
   .content__image {
+    margin-top: 1rem;
     max-width: 300px; } }
+
+@media (min-width: 769px) {
+  .btn:hover {
+    background: #006aa9;
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 106, 169, 0.2);
+    transition: transform 0.3s;
+    box-shadow: 5px 10px 8px #acaaaa; }
+  .btn:active {
+    transform: translateY(5px);
+    box-shadow: 0 1rem 2rem rgba(0, 106, 169, 0.2);
+    box-shadow: 5px 10px 8px #acaaaa; } }

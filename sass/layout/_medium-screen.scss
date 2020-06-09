@@ -8,6 +8,11 @@
     padding-right: 10rem;
   }
 
+  .content__image {
+    max-width: 680px;
+    margin-top: 50px;
+  }
+
   .btn {
     font-size: 2.1rem;
   }
@@ -17,8 +22,8 @@
       background-size: 50%;
       width: 70%;
       height: 70%;
-      left: 10%;
-      bottom: -10%;
+      left: 5%;
+      bottom: 10%;
     }
   }
 
@@ -28,7 +33,7 @@
       width: 70%;
       height: 70%;
       right: -25%;
-      bottom: -10%;
+      bottom: 3%;
     }
   }
 

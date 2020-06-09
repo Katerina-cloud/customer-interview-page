@@ -9,13 +9,14 @@
     content: '';
     background-image: url(../../img/bottom-left-blue-cloud.png);
     background-size: contain;
-    width: 530px;
-    height: 229px;
+    background-repeat: no-repeat;
+    width: 40rem;
+    height: 16rem;
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: -1;
-    opacity: 30%;
+    opacity: 100%;
   }
 
   &:after {
@@ -23,13 +24,13 @@
     background-image: url(../../img/top-left-clouds.png);
     background-size: contain;
     background-repeat: no-repeat;
-    min-width: 465px;
-    min-height: 290px;
+    min-width: 30rem;
+    min-height: 20rem;
     position: absolute;
     right: 0;
     top: 0;
     z-index: -1;
-    opacity: 30%;
+    opacity: 100%;
   }
 }
 

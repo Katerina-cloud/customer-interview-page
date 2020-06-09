@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   html {
     font-size: 8px;
   }
@@ -11,5 +11,33 @@
 
   .header__container {
     margin: 3rem 6rem 4rem;
+  }
+
+  .btn {
+    min-height: 120px;
+    height: 14vh;
+    min-width: 230px;
+    max-width: 30vw;
+  }
+
+  #button__wrapper-1 {
+    &:before {
+      max-height: 780px;
+      bottom: 4%;
+    }
+  }
+
+  #button__wrapper-2 {
+    &:before {
+      max-height: 790px;
+      bottom: 1%;
+    }
+  }
+
+  #button__wrapper-3 {
+    &:before {
+      top: 42%;
+      left: 31%;
+    }
   }
 }
