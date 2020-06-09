@@ -10,6 +10,9 @@
 @import 'layout/header';
 @import 'layout/content';
 
-@import 'layout/_mobile.scss';
-@import 'layout/_medium-screen';
+@import 'layout/_extra-wide-screen';
 @import 'layout/_wide-screen';
+@import 'layout/_medium-screen';
+@import 'layout/_small-screen';
+@import 'layout/_tablet';
+@import 'layout/_mobile.scss';

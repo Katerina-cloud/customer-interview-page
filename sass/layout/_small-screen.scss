@@ -1,40 +1,37 @@
-@media (max-width: 1366px) {
+@media (max-width: 1280px) {
   html {
     font-size: 10px;
   }
 
   .header__container {
-    margin: 4rem 8rem;
+    margin: 4rem;
+    margin-top: 3.4rem;
     padding-right: 10rem;
-  }
-
-  .btn {
-    font-size: 2.1rem;
   }
 
   #button__wrapper-1 {
     &:before {
-      background-size: 50%;
+      background-size: 40%;
       width: 70%;
       height: 70%;
       left: 10%;
-      bottom: -10%;
+      bottom: 0%;
     }
   }
 
   #button__wrapper-2 {
     &:before {
-      background-size: 50%;
+      background-size: 40%;
       width: 70%;
       height: 70%;
-      right: -25%;
-      bottom: -10%;
+      right: -30%;
+      bottom: -5%;
     }
   }
 
   #button__wrapper-3 {
     &:before {
-      background-size: 40%;
+      background-size: 30%;
       width: 30%;
       height: 30%;
       top: 35%;
