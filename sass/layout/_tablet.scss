@@ -3,6 +3,12 @@
     font-size: 8px;
   }
 
+  .header {
+    &:after {
+      background-image: none;
+    }
+  }
+
   .header__container {
     margin: 3rem 6rem 4rem;
   }
