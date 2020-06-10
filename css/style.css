@@ -64,6 +64,9 @@ body {
   transition: transform 0.3s;
   margin: 2rem; }
 
+.button__link {
+  text-decoration: none; }
+
 .header {
   display: flex;
   top: 0;
@@ -249,7 +252,7 @@ body {
     margin: 4rem 8rem;
     padding-right: 10rem; }
   .content__image {
-    max-width: 680px;
+    max-width: 500px;
     margin-top: 50px; }
   .btn {
     font-size: 2.1rem; }
@@ -279,6 +282,8 @@ body {
     margin: 4rem;
     margin-top: 3.4rem;
     padding-right: 10rem; }
+  .btn {
+    min-height: 24vh; }
   #button__wrapper-1:before {
     background-size: 40%;
     width: 70%;
