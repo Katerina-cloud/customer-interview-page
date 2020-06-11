@@ -3,6 +3,12 @@
     font-size: 16px;
   }
 
+  .btn {
+    min-height: 24vh;
+    min-width: 20vw;
+    max-width: 25vw;
+  }
+
   #button__wrapper-1 {
     &:before {
       background-size: 60%;
@@ -37,7 +43,7 @@
       max-width: 470px;
       height: 30%;
       max-height: 370px;
-      top:48%;
+      top: 48%;
       left: 30%;
     }
   }
