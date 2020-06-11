@@ -184,6 +184,10 @@ body {
 @media (min-width: 1601px) {
   html {
     font-size: 16px; }
+  .btn {
+    min-height: 24vh;
+    min-width: 20vw;
+    max-width: 25vw; }
   #button__wrapper-1:before {
     background-size: 60%;
     width: 60%;
